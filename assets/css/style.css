@@ -1,0 +1,178 @@
+body {
+  font-family: Roboto;
+  /* border-radius: 25px !important; */
+  
+  
+}
+.titlebar {
+  background-color: rgb(255, 255, 255) !important;
+  color: black  !important;
+
+}
+
+.br {
+  height: 5px;
+}
+
+
+.header {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 30px; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  border-bottom: rgb(78, 78, 78) 1px solid;
+  /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.267) !important; */
+  height: 75px;
+  background-color: rgb(208, 221, 226);
+  padding: 15px;
+  white-space: nowrap;
+}
+
+
+.header-content {
+  white-space: nowrap;
+}
+
+
+.btn {
+    /* box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 0.5) !important; */
+
+}
+
+.content {
+  top: 75px;
+  margin: 25px;
+  margin-top: 130px;
+}
+
+
+
+.report-select-container {
+  display: inline-block;
+}
+
+
+pre {
+  white-space: pre-wrap;
+  margin: 0px;
+
+}
+
+
+
+.dropzone {
+  position: fixed;
+  top: 30px; 
+  left: 0; 
+  /* above all elements, even if z-index is used elsewhere
+       it can be lowered as needed, but this value surpasses
+       all elements when used on YouTube for example. */
+  z-index: 9999999999;
+  /* takes up 100% of page */
+  width: 100%;
+  height: 100%;
+  /* dim the page with 50% black background when visible */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* a nice fade effect, visibility toggles after 175ms, opacity will animate for 175ms. note display:none cannot be animated.  */
+  transition: visibility 175ms, opacity 175ms;
+}
+
+
+.progressmodal.inactive {
+  visibility: hidden;
+}
+
+.progressmodal.active {
+  visibility: visible;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.247);
+  transition: visibility 175ms, opacity 175ms;
+  align-items: center;
+  align-content: center;
+}
+
+
+
+
+.dropdown {
+  display: inline-block;
+
+}
+.dropdown button {
+
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  
+
+}
+
+.load-file-button {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+
+.loader {
+  border: 16px solid #f3f3f3;
+  /* Light grey */
+  border-top: 16px solid #3498db;
+  /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  left: 50vw;
+  top: 50vh
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.SIM-Name-Container {
+  float: right;
+  vertical-align: middle;
+  margin-top:10px;
+  margin-right: 10px;
+  color: rgb(43, 43, 43);
+  
+}
+.btn:hover {
+  transition:background-color 100ms !important;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

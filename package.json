@@ -1,0 +1,44 @@
+{
+  "name": "epdive",
+  "version": "1.0.0",
+  "description": "something",
+  "main": "main.js",
+  "productName": "myapp",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rebuild": "electron-rebuild -f -w sqlite3",
+    "postinstall": "electron-builder install-app-deps",
+    "start": "electron .",
+    "build": "electron-packager . bepulse --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"bepulse\""
+  },
+  "author": "msweeney",
+  "license": "ISC",
+  "dependencies": {
+    "child_processes": "^0.1.0",
+    "compass": "^0.1.1",
+    "custom-electron-titlebar": "^3.2.2-hotfix62",
+    "electron-compile": "^6.4.4",
+    "electron-middle": "^1.1.0",
+    "electron-middle-sass": "^1.0.2",
+    "electron-store": "^3.3.0",
+    "electron-tabs": "^0.10.0",
+    "glob": "^7.1.4",
+    "gulp-sass": "^4.0.2",
+    "jquery": "^3.4.1",
+    "json": "^9.0.6",
+    "node-pre-gyp": "^0.13.0",
+    "node-sass": "^4.13.0",
+    "on-change": "^1.6.2",
+    "split": "^1.0.1",
+    "sqlite-async": "^1.0.12",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "electron": "^6.0.10",
+    "electron-builder": "^20.41.0",
+    "electron-packager": "^14.2.1",
+    "electron-rebuild": "^1.8.6",
+    "electron-reload": "^1.5.0",
+    "webpack": "^1.14.0"
+  }
+}
