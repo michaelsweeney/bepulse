@@ -18,8 +18,8 @@ $(document).ready( () => {
         container: document.querySelector('#app-entry')
     })
 
-    let simfile1 = './assets/geo.SIM'
-    let simfile2 = './assets/noerv.SIM'
+    let simfile1 = './sample sim files/geo.SIM'
+    let simfile2 = './sample sim files/noerv.SIM'
 
     // app.filemanager.loadFiles([simfile1])
 
