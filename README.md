@@ -1,10 +1,6 @@
+bepulse is a modern alternative to eQUEST's D2SimViewer. It allows drag-and-drop SIM files, searchable report selection, and drastically improved performance.
 
-epdive_js_electron
-
-electron- and D3-based app for energyplus visualization
->>>>>>> refs/remotes/origin/master
-
-
+Bepulse is currently in Beta release; comments welcome!
 
 Download Executable File (currently Windows only) here:
 
