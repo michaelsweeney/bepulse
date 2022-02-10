@@ -27,7 +27,7 @@
     "jquery": "^3.4.1",
     "json": "^9.0.6",
     "node-pre-gyp": "^0.13.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "on-change": "^1.6.2",
     "split": "^1.0.1",
     "sqlite-async": "^1.0.12",
